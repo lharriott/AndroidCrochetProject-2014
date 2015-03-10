@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtIncrementor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fldMultiplier"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/fldMultiplier"
+        android:text="@string/txtIncrementor"
+        android:textColor="#F08080"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/fldIncrementor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtIncrementor"
+        android:layout_alignBottom="@+id/txtIncrementor"
+        android:layout_alignLeft="@+id/fldMultiplier"
+        android:ems="10"
+        android:hint="@string/txtCalcHintAdd"
+        android:inputType="number"
+        android:textColor="#2E78E6"
+        android:textColorHint="#6DA0EE" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/fldMultiplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtMultiplier"
+        android:layout_alignBottom="@+id/txtMultiplier"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/txtMultiplier"
+        android:ems="10"
+        android:hint="@string/txtCalcMultHint"
+        android:inputType="number"
+        android:textColor="#2E78E6"
+        android:textColorHint="#6DA0EE" />
+
+    <TextView
+        android:id="@+id/txtMultiplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/txtMultiplier"
+        android:textColor="#F08080"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fldIncrementor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/btnCalc"
+        android:textColor="#F08080"
+        android:textSize="22sp" 
+        />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCalculate"
+        android:layout_above="@+id/txtCalcHint"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+
+        android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textColor="#2E78E6"
+        android:textSize="18sp" />
+    
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtCalcHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/txtCalcHint"
+        android:textColor="#F08080"
+        android:textSize="16sp"
+        android:padding="10sp" />
+
+</RelativeLayout>

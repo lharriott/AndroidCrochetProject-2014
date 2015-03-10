@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Crochet Guide</string>
+    <string name="txtIntro">Introduction</string>
+    <string name="txtBody"></string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="btnCalc">Calculate</string>
+    <string name="txtIncrementor">+</string>
+    <string name="txtMultiplier">Multiplier</string>
+    <string name="txtPurpose">This app is designed to help someone who wishes to learn crochet and serve as a reference guide for beginner crocheters.</string>
+    <string name="txtFirst">The first thing you need to do is obtain a crochet hook and some yarn.   I recommend using basic, acrylic yarn and a larger size hook (such as the J/10/6mm size hook).</string>
+    <string name="txtBasic">The next thing you’ll want to do is learn the basic stitches that you’ll run across most often.   Under the resources tab, you’ll find tutorials for each of the basic stitches.</string>
+    <string name="txtPractice">Yes, you should practice.   It sounds boring, but it doesn\'t have to be.   You can make washrags and scarfs just repeating basic stitches.   There are also simple patterns that only require basic knowledge.</string>
+    <string name="txtPattern">When choosing a pattern you want to be aware of what you already know how to do and what you are willing to learn how to do.   Many times looking at the abbreviations in the pattern(many patterns list them at the beginning or end) will let you know exactly what skills you need for the pattern.</string>
+    <string name="txtGauge">A gauge is a sample of the main pattern you\'ll be working in.   You make it to specifications found at the beginning of a pattern and then measure it with a tape measure, ruler, etc.   Depending on the pattern you\'ve chosen, gauges can be very important.   For things such as scarves, not so much. For a sweater or socks, pretty crucial.   Be aware that not everyone crochets the same.</string>
+    <string name="txtCalculator">What is the mysterious calculator tab for?   Well, when working with a pattern that creates a rectangle, we may not always like the width that a pattern specifies.   However, we can essentially scale that pattern in either direction if the multiple and increment of the pattern can be discerned.   There are also pattern stitches that will only give us one iteration of a stitch that we need to scale upwards.   These kinds of patterns will usually specify both of the variables the calculator needs to scale a pattern.   The calculator takes the multiple and increment and gives you the number of chains for the first fifteen iterations of a pattern.</string>
+    <string name="txtIdeas">If you\’re tired of the things you\’ve been creating but don\’t think you can move on to something more complicated, there are a few different things you can try to spice up your works.   Borders are a great way to make a scarf or a dishrag more exciting with very little effort.   There are some great, simple border patterns that can be found online.   Another method is color.   Switching color to make patterns is also a fun way to add variety to your creations.</string>
+    <string name="txtCalcHint">Don\'t know what this is for? Please consult the introduction page.</string>
+    <string name="txtCalcMultHint">Number of Base Stitches</string>
+    <string name="txtCalcHintAdd">Extra Stitches</string>
+    <string name="txtRescIntro">These are links to resources that will help you learn the basic skills you need.   Select an item to learn more about it.</string>
+
+</resources>
